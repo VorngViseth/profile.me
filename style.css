@@ -1,0 +1,36 @@
+h3 {
+    color : red;
+    font-family: monospace;
+    text-align: left;
+}
+.intro {
+    font-size: 10px;
+    text-align: center;
+    font-family: monospace; 
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-family: monospace;
+    color: crimson;
+}
+
+a {
+    text-decoration: none;
+}
+.social a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin: 4px 0;
+}
+a:hover {
+    color: crimson;
+}
+.social img {
+    vertical-align: middle;
+    margin-right: 0;
+}
