@@ -1,14 +1,14 @@
 # --- Sensitive Files ---
-api.js            # Your private webhook file never commit this!
+api.js
 
 # --- System Files ---
-.DS_Store         # macOS metadata
-Thumbs.db         # Windows thumbnail cache
+.DS_Store         
+Thumbs.db         
 
 # --- Editor Settings ---
-.vscode/          # VS Code settings folder
-.idea/            # JetBrains IDE settings
-*.swp             # Vim swap files
+.vscode/         
+.idea/           
+*.swp            
 *.swo
 *~
 
