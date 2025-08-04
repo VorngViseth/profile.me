@@ -6,15 +6,15 @@
     border-radius: 15px;
     text-align: center;
     justify-content: center;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .background {
-    font-size: 30px;
+    font-size: 18px;
     background-image: url('image/knights-canyon-challenge-dragon-digital-painting.webp');
     background-repeat: no-repeat;
     background-position: center center;
@@ -24,7 +24,19 @@
     padding: 0;
     align-items: center;
     justify-content: center;    
-    background-size: cover;
+    background-size: cover; 
+}
+
+@media (min-width: 768px) {
+    .background {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .background {
+        font-size: 30px;
+    }
 }
 
 h3 {
