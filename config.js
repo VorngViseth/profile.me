@@ -1,1 +1,1 @@
-const webHook = "Add you webhook here";
+const discordWebHook = "Add you webhook here";
