@@ -1,0 +1,29 @@
+# --- Sensitive Files ---
+api.js            # Your private webhook file never commit this!
+
+# --- System Files ---
+.DS_Store         # macOS metadata
+Thumbs.db         # Windows thumbnail cache
+
+# --- Editor Settings ---
+.vscode/          # VS Code settings folder
+.idea/            # JetBrains IDE settings
+*.swp             # Vim swap files
+*.swo
+*~
+
+# --- Logs ---
+*.log
+
+# --- Build Output (if any later) ---
+dist/
+build/
+*.min.js
+*.bundle.js
+*.map
+
+# --- Optional Image Editors ---
+*.psd
+*.xcf
+*.bak
+*.tmp

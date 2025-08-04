@@ -6,8 +6,8 @@
     border-radius: 15px;
     text-align: center;
     justify-content: center;
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
